@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\4tran\\source\\repos\\WebBanSach\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15622A46-3077-4643-8A51-62E5299FB279}|WebsiteBanHang\\WebsiteBanHang.csproj|c:\\users\\4tran\\source\\repos\\webbansach\\websitebanhang\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15622A46-3077-4643-8A51-62E5299FB279}|WebsiteBanHang\\WebsiteBanHang.csproj|solutionrelative:websitebanhang\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15622A46-3077-4643-8A51-62E5299FB279}|WebsiteBanHang\\WebsiteBanHang.csproj|C:\\Users\\4tran\\source\\repos\\WebBanSach\\websitebanhang\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15622A46-3077-4643-8A51-62E5299FB279}|WebsiteBanHang\\WebsiteBanHang.csproj|solutionrelative:websitebanhang\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15622A46-3077-4643-8A51-62E5299FB279}|WebsiteBanHang\\WebsiteBanHang.csproj|C:\\Users\\4tran\\source\\repos\\WebBanSach\\websitebanhang\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{15622A46-3077-4643-8A51-62E5299FB279}|WebsiteBanHang\\WebsiteBanHang.csproj|solutionrelative:websitebanhang\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15622A46-3077-4643-8A51-62E5299FB279}|WebsiteBanHang\\WebsiteBanHang.csproj|C:\\Users\\4tran\\source\\repos\\WebBanSach\\websitebanhang\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15622A46-3077-4643-8A51-62E5299FB279}|WebsiteBanHang\\WebsiteBanHang.csproj|solutionrelative:websitebanhang\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\4tran\\source\\repos\\WebBanSach\\WebsiteBanHang\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebsiteBanHang\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\4tran\\source\\repos\\WebBanSach\\WebsiteBanHang\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "WebsiteBanHang\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T14:39:22.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\4tran\\source\\repos\\WebBanSach\\WebsiteBanHang\\Web.config",
+              "RelativeDocumentMoniker": "WebsiteBanHang\\Web.config",
+              "ToolTip": "C:\\Users\\4tran\\source\\repos\\WebBanSach\\WebsiteBanHang\\Web.config",
+              "RelativeToolTip": "WebsiteBanHang\\Web.config",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-18T14:37:35.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\4tran\\source\\repos\\WebBanSach\\WebsiteBanHang\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebsiteBanHang\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\4tran\\source\\repos\\WebBanSach\\WebsiteBanHang\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebsiteBanHang\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T14:36:21.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\4tran\\source\\repos\\WebBanSach\\WebsiteBanHang\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebsiteBanHang\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\4tran\\source\\repos\\WebBanSach\\WebsiteBanHang\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebsiteBanHang\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T14:35:47.851Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

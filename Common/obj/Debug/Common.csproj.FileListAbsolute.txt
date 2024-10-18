@@ -10,3 +10,9 @@ C:\Users\4tran\Documents\hoccntt\QLDACNTT\WebsiteBanHang\Common\obj\Debug\Common
 C:\Users\4tran\Documents\hoccntt\QLDACNTT\WebsiteBanHang\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 C:\Users\4tran\Documents\hoccntt\QLDACNTT\WebsiteBanHang\Common\obj\Debug\Common.dll
 C:\Users\4tran\Documents\hoccntt\QLDACNTT\WebsiteBanHang\Common\obj\Debug\Common.pdb
+C:\Users\4tran\Source\Repos\WebBanSach\Common\bin\Debug\Common.dll
+C:\Users\4tran\Source\Repos\WebBanSach\Common\bin\Debug\Common.pdb
+C:\Users\4tran\Source\Repos\WebBanSach\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\4tran\Source\Repos\WebBanSach\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\4tran\Source\Repos\WebBanSach\Common\obj\Debug\Common.dll
+C:\Users\4tran\Source\Repos\WebBanSach\Common\obj\Debug\Common.pdb
