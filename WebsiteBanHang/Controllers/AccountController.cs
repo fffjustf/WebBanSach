@@ -104,5 +104,68 @@ namespace WebsiteBanHang.Controllers
             }
             return View(model);
         }
+
+        public ActionResult Logout()
+        {
+            Response.Cookies["TaiKhoan"].Value = null;
+            Response.Cookies["TaiKhoan"].Expires = DateTime.Now.AddDays(-1);
+            Response.Cookies["ChucNang"].Value = null;
+            Response.Cookies["ChucNang"].Expires = DateTime.Now.AddDays(-1);
+            return RedirectToAction("Index", "Home");
+        }
+
+        
+
+        public ActionResult Register(string url)
+        {
+            ViewBag.Url = url;
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Register(KHACHHANG model)
+        {
+            if (model.Ma_KhachHang == null)
+            {
+                model.Ma_KhachHang = KHACHHANG_DAO.Create_MaKH();
+            }
+            ModelState.Clear();
+
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            if (!String.IsNullOrEmpty(model.TaiKhoan))
+            {
+                if (KHACHHANG_DAO.Check_TaiKhoan(model.TaiKhoan))
+                {
+                    ModelState.AddModelError("TaiKhoan", "Tài khoản đã tồn tại");
+                    return View(model);
+                }
+            }
+
+            if (!String.IsNullOrEmpty(model.MatKhau) && model.Repeat_Password != model.MatKhau)
+            {
+                ModelState.AddModelError("Repeat_Password", "Mật khẩu không giống nhau");
+                return View(model);
+            }
+
+            if (KHACHHANG_DAO.Create(model) != 0)
+            {
+                ModelState.AddModelError("HoTen", "Không đăng ký được thành viên");
+                return View(model);
+            }
+
+            if (String.IsNullOrEmpty(model.url))
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                return Redirect(model.url);
+            }
+        }
     }
 }
