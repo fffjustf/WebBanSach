@@ -114,7 +114,47 @@ namespace WebsiteBanHang.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        
+        public ActionResult Change_Password()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Change_Password(TAIKHOAN model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            TAIKHOAN tk = TAIKHOAN_DAO.Read(model.Username);
+            if (tk.Password != model.Password || tk == null)
+            {
+                ModelState.AddModelError("Password", "Mật khẩu cũ không chính xác");
+                return View(model);
+            }
+
+            if (model.New_Password != model.Repeat_Password)
+            {
+                ModelState.AddModelError("Repeat_Password", "Mật khẩu không giống nhau");
+                return View(model);
+            }
+
+            tk.Password = model.New_Password;
+            if (TAIKHOAN_DAO.Update(tk) == 0)
+            {
+                ModelState.AddModelError("Password", "Không thay đổi được Password");
+                return View(model);
+            }
+
+            Response.Cookies["TaiKhoan"].Value = null;
+            Response.Cookies["TaiKhoan"].Expires = DateTime.Now.AddDays(-1);
+            Response.Cookies["ChucNang"].Value = null;
+            Response.Cookies["ChucNang"].Expires = DateTime.Now.AddDays(-1);
+            return RedirectToAction("Login", "Account");
+        }
+
 
         public ActionResult Register(string url)
         {
