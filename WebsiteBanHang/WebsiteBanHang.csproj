@@ -138,6 +138,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SachController.cs" />
+    <Compile Include="Controllers\TimKiemController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -604,6 +605,7 @@
     <Content Include="Views\Sach\Chitiet_Sach.cshtml" />
     <Content Include="Views\Sach\Danhmuc.cshtml" />
     <Content Include="Views\Sach\Them_Moi.cshtml" />
+    <Content Include="Views\TimKiem\KetQuaTimKiem.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
