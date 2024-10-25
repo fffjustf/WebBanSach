@@ -137,6 +137,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\QuanLySachController.cs" />
     <Compile Include="Controllers\SachController.cs" />
     <Compile Include="Controllers\TimKiemController.cs" />
     <Compile Include="Global.asax.cs">
@@ -606,6 +607,11 @@
     <Content Include="Views\Sach\Danhmuc.cshtml" />
     <Content Include="Views\Sach\Them_Moi.cshtml" />
     <Content Include="Views\TimKiem\KetQuaTimKiem.cshtml" />
+    <Content Include="Views\QuanLySach\ChinhSua.cshtml" />
+    <Content Include="Views\QuanLySach\Index.cshtml" />
+    <Content Include="Views\QuanLySach\ThemMoi.cshtml" />
+    <Content Include="Views\QuanLySach\XemChiTiet.cshtml" />
+    <Content Include="Views\QuanLySach\Xoa.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
