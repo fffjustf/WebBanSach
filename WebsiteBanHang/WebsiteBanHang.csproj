@@ -614,6 +614,7 @@
     <Content Include="Views\QuanLySach\XemChiTiet.cshtml" />
     <Content Include="Views\QuanLySach\Xoa.cshtml" />
     <Content Include="Views\GioHang\GioHang.cshtml" />
+    <Content Include="Views\GioHang\GioHangPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
