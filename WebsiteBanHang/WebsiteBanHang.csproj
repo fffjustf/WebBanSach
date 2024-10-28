@@ -612,6 +612,12 @@
     <Content Include="Views\QuanLySach\ThemMoi.cshtml" />
     <Content Include="Views\QuanLySach\XemChiTiet.cshtml" />
     <Content Include="Views\QuanLySach\Xoa.cshtml" />
+<<<<<<< Updated upstream
+=======
+    <Content Include="Views\GioHang\GioHang.cshtml" />
+    <Content Include="Views\GioHang\GioHangPartial.cshtml" />
+    <Content Include="Views\GioHang\DatHang.cshtml" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
